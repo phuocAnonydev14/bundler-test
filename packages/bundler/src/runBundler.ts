@@ -7,7 +7,7 @@ import {
   IEntryPoint,
   RpcError,
   supportsRpcMethod, VerifyingPaymaster
-} from '@account-abstraction-phuoc/utils'
+} from 'account-abstraction-phuoc-test/utils'
 import { ethers, Wallet, Signer } from 'ethers'
 
 import { BundlerServer } from './BundlerServer'
@@ -15,7 +15,7 @@ import { UserOpMethodHandler } from './UserOpMethodHandler'
 
 import { initServer } from './modules/initServer'
 import { DebugMethodHandler } from './DebugMethodHandler'
-import { supportsDebugTraceCall } from '@account-abstraction-phuoc/validation-manager'
+import { supportsDebugTraceCall } from 'account-abstraction-phuoc-test/validation-manager'
 import { resolveConfiguration } from './Config'
 import { bundlerConfigDefault } from './BundlerConfig'
 import { JsonRpcProvider } from '@ethersproject/providers'

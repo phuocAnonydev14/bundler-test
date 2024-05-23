@@ -2,7 +2,7 @@ import { JsonRpcProvider } from '@ethersproject/providers'
 import { ethers } from 'ethers'
 import { resolveProperties } from 'ethers/lib/utils'
 import Debug from 'debug'
-import { deepHexlify, UserOperation } from '@account-abstraction-phuoc/utils'
+import { deepHexlify, UserOperation } from 'account-abstraction-phuoc-test/utils'
 
 const debug = Debug('aa.rpc')
 

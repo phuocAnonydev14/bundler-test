@@ -1,5 +1,5 @@
 {
-  "name": "@account-abstraction-phuoc/bundler",
+  "name": "account-abstraction-phuoc-test/bundler",
   "version": "0.6.2",
   "license": "MIT",
   "private": true,
@@ -24,9 +24,9 @@
     "watch-tsc": "tsc -w --preserveWatchOutput"
   },
   "dependencies": {
-    "@account-abstraction-phuoc/sdk": "^0.6.2",
-    "@account-abstraction-phuoc/utils": "^0.6.2",
-    "@account-abstraction-phuoc/validation-manager": "^0.6.2",
+    "account-abstraction-phuoc-test/sdk": "^0.6.2",
+    "account-abstraction-phuoc-test/utils": "^0.6.2",
+    "account-abstraction-phuoc-test/validation-manager": "^0.6.2",
     "@account-abstraction/contracts": "^0.7.0",
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/providers": "^5.7.0",

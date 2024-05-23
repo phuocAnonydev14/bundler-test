@@ -1,5 +1,5 @@
 import { expect } from 'chai'
-import { mergeStorageMap } from '@account-abstraction-phuoc/utils'
+import { mergeStorageMap } from 'account-abstraction-phuoc-test/utils'
 
 describe('#moduleUtils', () => {
   describe('#mergeStorageMap', () => {

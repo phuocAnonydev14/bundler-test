@@ -3,7 +3,7 @@ import { ReputationDump, ReputationManager } from './modules/ReputationManager'
 import { MempoolManager } from './modules/MempoolManager'
 import { SendBundleReturn } from './modules/BundleManager'
 import { EventsManager } from './modules/EventsManager'
-import { StakeInfo } from '@account-abstraction-phuoc/utils'
+import { StakeInfo } from 'account-abstraction-phuoc-test/utils'
 
 export class DebugMethodHandler {
   constructor (

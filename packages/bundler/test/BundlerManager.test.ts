@@ -7,9 +7,9 @@ import {
   packUserOp,
   UserOperation,
   deployEntryPoint, IEntryPoint, DeterministicDeployer
-} from '@account-abstraction-phuoc/utils'
+} from 'account-abstraction-phuoc-test/utils'
 
-import { ValidationManager, supportsDebugTraceCall } from '@account-abstraction-phuoc/validation-manager'
+import { ValidationManager, supportsDebugTraceCall } from 'account-abstraction-phuoc-test/validation-manager'
 import { MempoolManager } from '../src/modules/MempoolManager'
 import { BundleManager } from '../src/modules/BundleManager'
 import { ethers } from 'hardhat'

@@ -4,17 +4,17 @@ import { BundlerReputationParams, ReputationManager } from '../src/modules/Reput
 import { BundlerConfig } from '../src/BundlerConfig'
 import { parseEther } from 'ethers/lib/utils'
 import { MempoolManager } from '../src/modules/MempoolManager'
-import { ValidationManager, supportsDebugTraceCall } from '@account-abstraction-phuoc/validation-manager'
+import { ValidationManager, supportsDebugTraceCall } from 'account-abstraction-phuoc-test/validation-manager'
 import { BundleManager, SendBundleReturn } from '../src/modules/BundleManager'
 import { UserOpMethodHandler } from '../src/UserOpMethodHandler'
 import { ethers } from 'hardhat'
-import { SimpleAccountAPI } from '@account-abstraction-phuoc/sdk'
+import { SimpleAccountAPI } from 'account-abstraction-phuoc-test/sdk'
 import { Signer, Wallet } from 'ethers'
 import {
   IEntryPoint,
   resolveHexlify,
   SimpleAccountFactory__factory, deployEntryPoint, DeterministicDeployer
-} from '@account-abstraction-phuoc/utils'
+} from 'account-abstraction-phuoc-test/utils'
 import { expect } from 'chai'
 import { createSigner } from './testUtils'
 import { EventsManager } from '../src/modules/EventsManager'

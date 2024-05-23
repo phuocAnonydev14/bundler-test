@@ -6,7 +6,7 @@ import {
   AccountDeployedEvent, IEntryPoint,
   SignatureAggregatorChangedEvent,
   UserOperationEventEvent
-} from '@account-abstraction-phuoc/utils'
+} from 'account-abstraction-phuoc-test/utils'
 
 const debug = Debug('aa.events')
 

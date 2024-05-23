@@ -1,5 +1,5 @@
 {
-  "name": "@account-abstraction-phuoc/sdk",
+  "name": "account-abstraction-phuoc-test/sdk",
   "version": "0.6.2",
   "main": "./dist/src/index.js",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "watch-tsc": "tsc -w --preserveWatchOutput"
   },
   "dependencies": {
-    "@account-abstraction-phuoc/utils": "^0.6.2",
+    "account-abstraction-phuoc-test/utils": "^0.6.2",
     "@ethersproject/abstract-signer": "^5.7.0",
     "@ethersproject/networks": "^5.7.0",
     "@ethersproject/properties": "^5.7.0",
