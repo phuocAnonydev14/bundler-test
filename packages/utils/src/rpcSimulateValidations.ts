@@ -1,5 +1,5 @@
 import { packUserOp, UserOperation } from './ERC4337Utils'
-import EntryPointSimulationsJson from '@account-abstraction/contracts/artifacts/EntryPointSimulations.json'
+import EntryPointSimulationsJson from '@account-abstraction-fff/contracts/artifacts/EntryPointSimulations.json'
 
 import { EntryPointSimulations__factory, IEntryPointSimulations } from './types'
 

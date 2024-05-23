@@ -9,7 +9,7 @@ import {
 } from 'account-abstraction/utils'
 import { parseEther, hexZeroPad, hexDataSlice } from 'ethers/lib/utils'
 import { EntryPoint__factory, EntryPointSimulations__factory } from 'account-abstraction/utils/dist/src/types'
-import EntryPointSimulationsJson from '@account-abstraction/contracts/artifacts/EntryPointSimulations.json'
+import EntryPointSimulationsJson from '@account-abstraction-fff/contracts/artifacts/EntryPointSimulations.json'
 import { IEntryPoint__factory, SimpleAccount__factory } from '../types'
 import erc20ABI from "./erc20abi.json"
 

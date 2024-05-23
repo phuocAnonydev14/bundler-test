@@ -1,10 +1,10 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.15;
 
-import "@account-abstraction/contracts/interfaces/IAccount.sol";
-import "@account-abstraction/contracts/interfaces/IPaymaster.sol";
-import "@account-abstraction/contracts/interfaces/IEntryPoint.sol";
-import "@account-abstraction/contracts/core/UserOperationLib.sol";
+import "@account-abstraction-fff/contracts/interfaces/IAccount.sol";
+import "@account-abstraction-fff/contracts/interfaces/IPaymaster.sol";
+import "@account-abstraction-fff/contracts/interfaces/IEntryPoint.sol";
+import "@account-abstraction-fff/contracts/core/UserOperationLib.sol";
 import "./TestRuleAccount.sol";
 import "./TestCoin.sol";
 

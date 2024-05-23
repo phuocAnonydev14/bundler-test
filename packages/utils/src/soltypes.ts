@@ -2,9 +2,9 @@
 import {
   IEntryPointSimulations,
   IStakeManager
-} from './types/@account-abstraction/contracts/interfaces/IEntryPointSimulations'
+} from './types/@account-abstraction-fff/contracts/interfaces/IEntryPointSimulations'
 
-export { PackedUserOperationStruct } from './types/@account-abstraction/contracts/core/EntryPoint'
+export { PackedUserOperationStruct } from './types/@account-abstraction-fff/contracts/core/EntryPoint'
 export {
   IAccount, IAccount__factory,
   IEntryPoint, IEntryPoint__factory, EntryPoint,
@@ -24,7 +24,7 @@ export {
   AccountDeployedEvent,
   SignatureAggregatorChangedEvent,
   UserOperationEventEvent
-} from './types/@account-abstraction/contracts/interfaces/IEntryPoint'
+} from './types/@account-abstraction-fff/contracts/interfaces/IEntryPoint'
 
 export type ValidationResultStructOutput = IEntryPointSimulations.ValidationResultStructOutput
 export type ExecutionResultStructOutput = IEntryPointSimulations.ExecutionResultStructOutput

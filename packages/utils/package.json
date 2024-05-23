@@ -1,5 +1,5 @@
 {
-  "name": "account-abstraction/utils",
+  "name": "@account-abstraction-fff/utils",
   "version": "0.6.2",
   "main": "./dist/src/index.js",
   "license": "MIT",
@@ -17,7 +17,7 @@
     "sol-ts": "yarn hardhat-compile && yarn tsc"
   },
   "dependencies": {
-    "@account-abstraction/contracts": "^0.7.0",
+    "@account-abstraction-fff/contracts": "^0.7.0",
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/abstract-provider": "^5.7.0",
     "@ethersproject/abstract-signer": "^5.7.0",

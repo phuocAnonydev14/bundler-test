@@ -31,7 +31,7 @@ import { tracerResultParser } from './TracerResultParser'
 import { BundlerTracerResult, bundlerCollectorTracer, ExitInfo } from './BundlerCollectorTracer'
 import { debug_traceCall } from './GethTracer'
 
-import EntryPointSimulationsJson from '@account-abstraction/contracts/artifacts/EntryPointSimulations.json'
+import EntryPointSimulationsJson from '@account-abstraction-fff/contracts/artifacts/EntryPointSimulations.json'
 
 const debug = Debug('aa.mgr.validate')
 

@@ -8,7 +8,7 @@ import {
   resolveProperties,
   arrayify
 } from 'ethers/lib/utils'
-import { abi as entryPointAbi } from '@account-abstraction/contracts/artifacts/IEntryPoint.json'
+import { abi as entryPointAbi } from '@account-abstraction-fff/contracts/artifacts/IEntryPoint.json'
 
 import { BigNumber, BigNumberish, BytesLike, ethers, Wallet, Signer, Contract } from 'ethers'
 import Debug from 'debug'

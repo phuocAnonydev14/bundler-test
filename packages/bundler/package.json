@@ -1,5 +1,5 @@
 {
-  "name": "account-abstraction/bundler",
+  "name": "@account-abstraction-fff/bundler",
   "version": "0.6.2",
   "license": "MIT",
   "private": true,
@@ -24,10 +24,10 @@
     "watch-tsc": "tsc -w --preserveWatchOutput"
   },
   "dependencies": {
-    "account-abstraction/sdk": "^0.6.2",
-    "account-abstraction/utils": "^0.6.2",
-    "account-abstraction/validation-manager": "^0.6.2",
-    "@account-abstraction/contracts": "^0.7.0",
+    "@account-abstraction-fff/sdk": "^0.6.2",
+    "@account-abstraction-fff/utils": "^0.6.2",
+    "@account-abstraction-fff/validation-manager": "^0.6.2",
+    "@account-abstraction-fff/contracts": "^0.7.0",
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/providers": "^5.7.0",
     "@types/cors": "^2.8.12",

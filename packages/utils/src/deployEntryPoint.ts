@@ -1,5 +1,5 @@
 import { JsonRpcProvider } from '@ethersproject/providers'
-import { bytecode as entryPointByteCode } from '@account-abstraction/contracts/artifacts/EntryPoint.json'
+import { bytecode as entryPointByteCode } from '@account-abstraction-fff/contracts/artifacts/EntryPoint.json'
 import { IEntryPoint, IEntryPoint__factory } from './soltypes'
 import { DeterministicDeployer } from './DeterministicDeployer'
 

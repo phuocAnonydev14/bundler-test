@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity ^0.8.12;
 
-import "@account-abstraction/contracts/interfaces/IAccount.sol";
+import "@account-abstraction-fff/contracts/interfaces/IAccount.sol";
 
 /// @dev A test contract that represents a potential attack where a wallet entity is also
 /// used as an associated storage by a different UserOperation.
