@@ -2,7 +2,7 @@
   "name": "@account-abstraction-fff/bundler",
   "version": "0.6.3",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "files": [
     "dist/src/",
     "dist/index.js",

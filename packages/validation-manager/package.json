@@ -22,5 +22,6 @@
     "@ethersproject/providers": "^5.7.0",
     "debug": "^4.3.4",
     "ethers": "^5.7.0"
-  }
+  },
+  "gitHead": "cf7242dffd53ee8f4d99c35bb8d8faccda254f70"
 }
