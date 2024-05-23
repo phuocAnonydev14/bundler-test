@@ -1,7 +1,7 @@
 import Debug from 'debug'
 import { Mutex } from 'async-mutex'
-import { ValidationManager } from 'account-abstraction-anonydev/validation-manager'
-import { packUserOp, UserOperation } from 'account-abstraction-anonydev/utils'
+import { ValidationManager } from 'account-abstraction/validation-manager'
+import { packUserOp, UserOperation } from 'account-abstraction/utils'
 import { clearInterval } from 'timers'
 
 import { BundleManager, SendBundleReturn } from './BundleManager'

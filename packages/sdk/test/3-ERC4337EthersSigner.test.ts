@@ -4,7 +4,7 @@ import {
   packUserOp,
   SampleRecipient,
   SampleRecipient__factory
-} from 'account-abstraction-anonydev/utils'
+} from 'account-abstraction/utils'
 import { ethers } from 'hardhat'
 import { ClientConfig, ERC4337EthersProvider, wrapProvider } from '../src'
 import { expect } from 'chai'

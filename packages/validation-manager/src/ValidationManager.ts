@@ -24,8 +24,8 @@ import {
   IEntryPoint,
   ValidationResultStructOutput,
   StakeInfoStructOutput
-} from 'account-abstraction-anonydev/utils'
-import { calcPreVerificationGas } from 'account-abstraction-anonydev/sdk'
+} from 'account-abstraction/utils'
+import { calcPreVerificationGas } from 'account-abstraction/sdk'
 
 import { tracerResultParser } from './TracerResultParser'
 import { BundlerTracerResult, bundlerCollectorTracer, ExitInfo } from './BundlerCollectorTracer'

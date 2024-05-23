@@ -2,13 +2,13 @@ import { ExecutionManager } from './ExecutionManager'
 import { BundlerReputationParams, ReputationManager } from './ReputationManager'
 import { MempoolManager } from './MempoolManager'
 import { BundleManager } from './BundleManager'
-import { ValidationManager } from 'account-abstraction-anonydev/validation-manager'
+import { ValidationManager } from 'account-abstraction/validation-manager'
 import { parseEther } from 'ethers/lib/utils'
 import { Signer } from 'ethers'
 import { BundlerConfig } from '../BundlerConfig'
 import { EventsManager } from './EventsManager'
 import { getNetworkProvider } from '../Config'
-import { IEntryPoint__factory } from 'account-abstraction-anonydev/utils'
+import { IEntryPoint__factory } from 'account-abstraction/utils'
 
 /**
  * initialize server modules.

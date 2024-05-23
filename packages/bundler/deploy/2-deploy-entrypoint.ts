@@ -1,7 +1,7 @@
 import { HardhatRuntimeEnvironment } from 'hardhat/types'
 import { DeployFunction } from 'hardhat-deploy/types'
 import { ethers } from 'hardhat'
-import { deployEntryPoint, getEntryPointAddress } from 'account-abstraction-anonydev/utils'
+import { deployEntryPoint, getEntryPointAddress } from 'account-abstraction/utils'
 
 // deploy entrypoint - but only on debug network..
 const deployEP: DeployFunction = async function (hre: HardhatRuntimeEnvironment) {

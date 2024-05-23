@@ -15,7 +15,7 @@ import {
   mapOf,
   requireCond,
   toBytes32, SenderCreator__factory, IEntryPoint__factory, IPaymaster__factory, IAccount__factory, IEntryPoint
-} from 'account-abstraction-anonydev/utils'
+} from 'account-abstraction/utils'
 
 import { ValidationResult } from './ValidationManager'
 

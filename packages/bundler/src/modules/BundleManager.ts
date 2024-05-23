@@ -1,5 +1,5 @@
 import { MempoolManager } from './MempoolManager'
-import { ValidateUserOpResult, ValidationManager } from 'account-abstraction-anonydev/validation-manager'
+import { ValidateUserOpResult, ValidationManager } from 'account-abstraction/validation-manager'
 import { BigNumber, BigNumberish } from 'ethers'
 import { JsonRpcProvider, JsonRpcSigner } from '@ethersproject/providers'
 import Debug from 'debug'
@@ -12,7 +12,7 @@ import {
   mergeStorageMap,
   runContractScript,
   packUserOp, IEntryPoint
-} from 'account-abstraction-anonydev/utils'
+} from 'account-abstraction/utils'
 import { EventsManager } from './EventsManager'
 import { ErrorDescription } from '@ethersproject/abi/lib/interface'
 

@@ -3,14 +3,14 @@ import {
   deepHexlify,
   deployEntryPoint, IEntryPoint,
   UserOperation
-} from 'account-abstraction-anonydev/utils'
+} from 'account-abstraction/utils'
 import { BundlerServer } from '../src/BundlerServer'
 import { expect } from 'chai'
 import { createSigner } from './testUtils'
 import { BundlerReputationParams, ReputationManager } from '../src/modules/ReputationManager'
 import { parseEther } from 'ethers/lib/utils'
 import { MempoolManager } from '../src/modules/MempoolManager'
-import { supportsDebugTraceCall, ValidationManager } from 'account-abstraction-anonydev/validation-manager'
+import { supportsDebugTraceCall, ValidationManager } from 'account-abstraction/validation-manager'
 import { EventsManager } from '../src/modules/EventsManager'
 import { BundleManager } from '../src/modules/BundleManager'
 import { ExecutionManager } from '../src/modules/ExecutionManager'

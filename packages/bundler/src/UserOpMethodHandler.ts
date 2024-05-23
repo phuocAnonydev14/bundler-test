@@ -23,10 +23,10 @@ import {
   UserOperationEventEvent,
   ValidationErrors,
   VerifyingPaymaster
-} from 'account-abstraction-anonydev/utils'
+} from 'account-abstraction/utils'
 import {ExecutionManager} from './modules/ExecutionManager'
 import {UserOperationByHashResponse, UserOperationReceipt} from './RpcTypes'
-import {calcPreVerificationGas} from 'account-abstraction-anonydev/sdk'
+import {calcPreVerificationGas} from 'account-abstraction/sdk'
 import {EventFragment} from '@ethersproject/abi'
 import {arrayify, defaultAbiCoder, hexConcat} from 'ethers/lib/utils'
 

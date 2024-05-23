@@ -1,5 +1,5 @@
 {
-  "name": "account-abstraction-anonydev/utils",
+  "name": "account-abstraction/utils",
   "version": "0.6.2",
   "main": "./dist/src/index.js",
   "license": "MIT",

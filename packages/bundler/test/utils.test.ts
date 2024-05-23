@@ -1,6 +1,6 @@
 import { expect } from 'chai'
 import { BigNumber } from 'ethers'
-import { deepHexlify } from 'account-abstraction-anonydev/utils'
+import { deepHexlify } from 'account-abstraction/utils'
 
 describe('#deepHexlify', function () {
   it('empty', () => {

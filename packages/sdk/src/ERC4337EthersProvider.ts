@@ -7,7 +7,7 @@ import { ClientConfig } from './ClientConfig'
 import { ERC4337EthersSigner } from './ERC4337EthersSigner'
 import { UserOperationEventListener } from './UserOperationEventListener'
 import { HttpRpcClient } from './HttpRpcClient'
-import { getUserOpHash, IEntryPoint, UserOperation } from 'account-abstraction-anonydev/utils'
+import { getUserOpHash, IEntryPoint, UserOperation } from 'account-abstraction/utils'
 import { BaseAccountAPI } from './BaseAccountAPI'
 import Debug from 'debug'
 const debug = Debug('aa.provider')

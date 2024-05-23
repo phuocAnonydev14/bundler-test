@@ -1,6 +1,6 @@
 import { JsonRpcProvider } from '@ethersproject/providers'
 
-import { AddressZero, IEntryPoint__factory, UserOperation } from 'account-abstraction-anonydev/utils'
+import { AddressZero, IEntryPoint__factory, UserOperation } from 'account-abstraction/utils'
 
 import { bundlerCollectorTracer } from './BundlerCollectorTracer'
 import { debug_traceCall } from './GethTracer'

@@ -8,13 +8,13 @@ import {
   IEntryPoint,
   toBytes32,
   UserOperation
-} from 'account-abstraction-anonydev/utils'
+} from 'account-abstraction/utils'
 import {
   ValidateUserOpResult,
   ValidationManager,
   checkRulesViolations,
   supportsDebugTraceCall
-} from 'account-abstraction-anonydev/validation-manager'
+} from 'account-abstraction/validation-manager'
 
 import {
   TestCoin,
