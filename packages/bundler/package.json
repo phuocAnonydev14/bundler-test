@@ -1,6 +1,6 @@
 {
   "name": "@account-abstraction/bundler",
-  "version": "0.7.0",
+  "version": "0.6.1",
   "license": "MIT",
   "private": true,
   "files": [
@@ -25,9 +25,9 @@
   },
   "dependencies": {
     "@account-abstraction/contracts": "^0.7.0",
-    "@account-abstraction/sdk": "^0.7.0",
-    "@account-abstraction/utils": "^0.7.0",
-    "@account-abstraction/validation-manager": "^0.7.0",
+    "@account-abstraction/sdk": "^0.6.1",
+    "@account-abstraction/utils": "^0.6.1",
+    "@account-abstraction/validation-manager": "^0.6.1",
     "@ethersproject/abi": "^5.7.0",
     "@ethersproject/providers": "^5.7.0",
     "@types/cors": "^2.8.12",
