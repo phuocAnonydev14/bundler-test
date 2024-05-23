@@ -8,13 +8,13 @@ import {
   IEntryPoint,
   toBytes32,
   UserOperation
-} from '@account-abstraction/utils'
+} from '@account-abstraction-phuoc/utils'
 import {
   ValidateUserOpResult,
   ValidationManager,
   checkRulesViolations,
   supportsDebugTraceCall
-} from '@account-abstraction/validation-manager'
+} from '@account-abstraction-phuoc/validation-manager'
 
 import {
   TestCoin,

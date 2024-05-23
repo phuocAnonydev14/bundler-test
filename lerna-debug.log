@@ -16,26 +16,26 @@
 11 silly hasTags
 12 verbose hasTags false
 13 info Assuming all packages changed
-14 verbose updated @account-abstraction/bundler
-15 verbose updated @account-abstraction/sdk
-16 verbose updated @account-abstraction/utils
-17 verbose updated @account-abstraction/validation-manager
+14 verbose updated @account-abstraction-phuoc/bundler
+15 verbose updated @account-abstraction-phuoc/sdk
+16 verbose updated @account-abstraction-phuoc/utils
+17 verbose updated @account-abstraction-phuoc/validation-manager
 18 verbose git-describe undefined => "ca65dd7"
 19 silly git-describe parsed => {"refCount":"138","sha":"ca65dd7","isDirty":false}
 20 info execute Skipping releases
 21 silly lifecycle No script for "preversion" in "aa-bundler-1", continuing
-22 silly lifecycle No script for "preversion" in "@account-abstraction/utils", continuing
-23 verbose version @account-abstraction/utils has no lockfile. Skipping lockfile update.
-24 silly lifecycle No script for "version" in "@account-abstraction/utils", continuing
-25 silly lifecycle No script for "preversion" in "@account-abstraction/sdk", continuing
-26 verbose version @account-abstraction/sdk has no lockfile. Skipping lockfile update.
-27 silly lifecycle No script for "version" in "@account-abstraction/sdk", continuing
-28 silly lifecycle No script for "preversion" in "@account-abstraction/validation-manager", continuing
-29 verbose version @account-abstraction/validation-manager has no lockfile. Skipping lockfile update.
-30 silly lifecycle No script for "version" in "@account-abstraction/validation-manager", continuing
-31 silly lifecycle No script for "preversion" in "@account-abstraction/bundler", continuing
-32 verbose version @account-abstraction/bundler has no lockfile. Skipping lockfile update.
-33 silly lifecycle No script for "version" in "@account-abstraction/bundler", continuing
+22 silly lifecycle No script for "preversion" in "@account-abstraction-phuoc/utils", continuing
+23 verbose version @account-abstraction-phuoc/utils has no lockfile. Skipping lockfile update.
+24 silly lifecycle No script for "version" in "@account-abstraction-phuoc/utils", continuing
+25 silly lifecycle No script for "preversion" in "@account-abstraction-phuoc/sdk", continuing
+26 verbose version @account-abstraction-phuoc/sdk has no lockfile. Skipping lockfile update.
+27 silly lifecycle No script for "version" in "@account-abstraction-phuoc/sdk", continuing
+28 silly lifecycle No script for "preversion" in "@account-abstraction-phuoc/validation-manager", continuing
+29 verbose version @account-abstraction-phuoc/validation-manager has no lockfile. Skipping lockfile update.
+30 silly lifecycle No script for "version" in "@account-abstraction-phuoc/validation-manager", continuing
+31 silly lifecycle No script for "preversion" in "@account-abstraction-phuoc/bundler", continuing
+32 verbose version @account-abstraction-phuoc/bundler has no lockfile. Skipping lockfile update.
+33 silly lifecycle No script for "version" in "@account-abstraction-phuoc/bundler", continuing
 34 silly lifecycle No script for "version" in "aa-bundler-1", continuing
 35 silly version Successfully applied prettier to updated file: packages/utils/package.json
 36 silly version Successfully applied prettier to updated file: packages/sdk/package.json
@@ -53,10 +53,10 @@
 42 verbose git [ 'commit', '-m', 'v0.6.1' ]
 43 silly gitTag v0.6.1
 44 verbose git [ 'tag', 'v0.6.1', '-m', 'v0.6.1' ]
-45 silly lifecycle No script for "postversion" in "@account-abstraction/bundler", continuing
-46 silly lifecycle No script for "postversion" in "@account-abstraction/sdk", continuing
-47 silly lifecycle No script for "postversion" in "@account-abstraction/utils", continuing
-48 silly lifecycle No script for "postversion" in "@account-abstraction/validation-manager", continuing
+45 silly lifecycle No script for "postversion" in "@account-abstraction-phuoc/bundler", continuing
+46 silly lifecycle No script for "postversion" in "@account-abstraction-phuoc/sdk", continuing
+47 silly lifecycle No script for "postversion" in "@account-abstraction-phuoc/utils", continuing
+48 silly lifecycle No script for "postversion" in "@account-abstraction-phuoc/validation-manager", continuing
 49 silly lifecycle No script for "postversion" in "aa-bundler-1", continuing
 50 info git Pushing tags...
 51 silly gitPush origin main

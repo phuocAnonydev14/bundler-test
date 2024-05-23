@@ -2,7 +2,7 @@ import { BigNumberish, Event } from 'ethers'
 import { TransactionReceipt } from '@ethersproject/providers'
 import { defaultAbiCoder } from 'ethers/lib/utils'
 import Debug from 'debug'
-import { IEntryPoint } from '@account-abstraction/utils'
+import { IEntryPoint } from '@account-abstraction-phuoc/utils'
 
 const debug = Debug('aa.listener')
 

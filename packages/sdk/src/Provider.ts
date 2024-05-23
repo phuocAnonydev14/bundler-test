@@ -5,7 +5,7 @@ import { SimpleAccountAPI } from './SimpleAccountAPI'
 import { ERC4337EthersProvider } from './ERC4337EthersProvider'
 import { HttpRpcClient } from './HttpRpcClient'
 import { Signer } from '@ethersproject/abstract-signer'
-import { DeterministicDeployer, IEntryPoint__factory, SimpleAccountFactory__factory } from '@account-abstraction/utils'
+import { DeterministicDeployer, IEntryPoint__factory, SimpleAccountFactory__factory } from '@account-abstraction-phuoc/utils'
 
 /**
  * wrap an existing provider to tunnel requests through Account Abstraction.
