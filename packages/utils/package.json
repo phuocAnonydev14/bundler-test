@@ -1,6 +1,6 @@
 {
   "name": "@account-abstraction-fff/utils",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "main": "./dist/src/index.js",
   "license": "MIT",
   "files": [
