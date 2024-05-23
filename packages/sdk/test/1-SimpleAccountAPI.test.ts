@@ -13,7 +13,7 @@ import {
   SampleRecipient__factory,
   IEntryPoint,
   SimpleAccountFactory__factory, decodeRevertReason
-} from 'account-abstraction-phuoc-test/utils'
+} from 'account-abstraction-anonydev/utils'
 
 const provider = ethers.provider
 const signer = provider.getSigner()

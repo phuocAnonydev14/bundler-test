@@ -9,8 +9,8 @@ overriding the `validateUserOp`, `validatePaymasterUserOp`, or expect your contr
 be called from these methods within the ERC-4337 transaction context.
 
 ```typescript
-import { UserOperation } from 'account-abstraction-phuoc-test/utils'
-import { checkRulesViolations } from 'account-abstraction-phuoc-test/validation-manager'
+import { UserOperation } from 'account-abstraction-anonydev/utils'
+import { checkRulesViolations } from 'account-abstraction-anonydev/validation-manager'
 
 const userOperation: UserOperation = createUserOp()
 await checkRulesViolations(provider, userOperation, entryPoint)
